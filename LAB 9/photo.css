@@ -1,0 +1,8 @@
+.photo{
+    background-image: url=('C:\Users\ayush\Pictures\Saved Pictures\wd1.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: 80% 70%;
+    background-position: top center;
+    background-position: 80px 70px;
+}

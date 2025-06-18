@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form4</title>
+</head>
+<body>
+        <form>
+            <table align="center" bordercolor="blue">
+                <caption><h1><td colspan="2" align="center">Create Account</td></h1></caption>
+                <tr>
+                    <td colspan="2"><hr></td>
+                </tr>
+                <tr>
+                    <td value="required">First Name *</td>
+                    <td>Last Name</td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Enter Your First Name" required></td>
+                    <td><input type="text" placeholder="Enter Your Last Name"></td>
+                </tr>
+                <tr>
+                    <td value="required">Email*</td>
+                </tr>
+                <tr>
+                    <td><input type="email" placeholder="Enter Your Email"></td>
+                </tr>
+                <tr>
+                    <td value="required">Password*</td>
+                    <td value="required">Confirm Password*</td>
+                </tr>
+                <tr>
+                    <td><input type="password" placeholder="Enter Your Password"></td>
+                    <td><input type="password" placeholder="Enter Your Password Again"></td>
+                </tr>
+                <tr>
+                    <td>Gender :</td>
+                    <td>Hobbies</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="gender">Male<input type="radio" name="gender">Female</td>
+                    <td><input type="checkbox">Music<input type="checkbox">Sports<input type="checkbox">Travel<input type="checkbox">Movies</td>
+                </tr>
+                <tr>
+                    <td>Source Of Income</td>
+                    <td>Income</td>
+                </tr>
+                <tr>
+                    <td>
+                        <select>
+                            <option selected disabled>Employed</option>
+                            <option>Unemployed</option>
+                            <option>Goverment Job</option>
+                            <option>Business</option>
+                         </select>  
+                    </td>
+                    <td><input type="range" step="2">20K</td>
+                </tr>
+                <tr>
+                    <td>Upload Profile Picture</td>
+                    <td>Age</td>
+                </tr>
+                <tr>
+                    <td><input type="file" value="Choose File"><input placeholder="No file chosen"></td>
+                    <td><input type="text" value="18"></td>
+                </tr>
+                <tr>
+                    <td>Bio</td>
+                </tr>
+                <tr>
+                    <td colspan="4"><textarea rows="5" cols="50"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><hr></td>
+                </tr>
+                <tr>
+                    <td align="right" colspan="4"><input type="submit" value="Create"></td>
+                </tr>
+            </table>
+        </form>
+</body>
+</html>

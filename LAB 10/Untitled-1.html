@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation-1</title>
+    <style >
+        div{
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+            background-color: black;
+            position: absolute;
+            top: 400px;
+            z-index: -4;;
+            left: 0px;
+        }
+        .ball1{
+         z-index: 3;
+         animation-name: b1;
+         animation-duration: 5s;
+         background-color: orange;
+         animation-iteration-count: infinite;
+        }
+        .ball2{
+        z-index: 2;
+         animation-name: b2;
+         animation-duration: 5s;
+         background-color: green;
+         animation-iteration-count: infinite;
+        }
+        .ball3{
+        z-index: 1;
+         animation-name: b3;
+         animation-duration: 5s;
+         background-color: orange;
+         animation-iteration-count: infinite;
+        }
+        
+        @keyframes b1 {
+         0%{
+            top:400px;
+            left:0px;
+         }
+         33.3%{
+            top:400px;
+            left:800px;
+         }
+         66.6%{
+            top:0px;
+            left:400px;
+         }
+         100%{
+            top:400px;
+            left:0px
+         }
+        }
+         @keyframes b2 {
+         0%{
+            top:400px;
+            left: 0px;
+         }
+         33.3%{
+            top:400px;
+            left: 800px;
+         }
+         66.6%{
+            top:400px;
+            left:400px;
+         }
+         100%{
+            top:400px;
+            left:0px
+         }
+        }
+        @keyframes b3 {
+         0%{
+            top:400px;
+            left: 0px;
+         }
+         33.3%{
+            top:400px;
+            left: 800px;
+         }
+         66.6%{
+            top:800px;
+            left:400px;
+         }
+         100%{
+            top:400px;
+            left:0px
+         }
+        }
+    </style>
+</head>
+<body>
+    <div style="height: 900px;width: 900px;background-color: black">
+    <div class="ball1"></div>
+    <div class="ball2"></div>
+    <div class="ball3"></div>
+    </div>
+</body>
+</html>
